@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_with_google" />
+
+    <!-- Add Skip Sign-In Button -->
+    <Button
+        android:id="@+id/skip_sign_in_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Skip Sign-In"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

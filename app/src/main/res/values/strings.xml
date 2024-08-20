@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="client_id">279941817497-a9ja3hfup6fdeieqdk2022kv1858v0g8.apps.googleusercontent.com</string>
+</resources>

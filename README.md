@@ -20,3 +20,27 @@ The Notes Android App is a simple note-taking application built using Java for A
   - `AddEditNoteFragment`: Allows users to add or edit notes.
 - **Database**: `SQLiteHelper` manages SQLite operations including CRUD operations for notes.
 - **Adapter**: `NotesAdapter` binds note data to the `RecyclerView` in `NotesFragment`.
+
+## File Structure
+
+- **MainActivity.java**: Handles authentication and fragment transactions.
+- **LoginFragment.java**: Manages Google Sign-In and skip sign-in.
+- **NotesFragment.java**: Displays and manages the list of notes.
+- **AddEditNoteFragment.java**: Handles note addition and editing.
+- **SQLiteHelper.java**: Manages SQLite database operations.
+- **NotesAdapter.java**: Adapter for displaying notes in a `RecyclerView`.
+- **Note.java**: Model class for notes.
+
+## XML Layout Files
+
+- **activity_main.xml**: Layout for the main activity, containing a `FrameLayout` for fragments.
+- **fragment_login.xml**: Layout for the login fragment with sign-in and skip sign-in buttons.
+- **fragment_notes.xml**: Layout for the notes fragment with a `RecyclerView` and an add note button.
+- **fragment_add_edit_note.xml**: Layout for adding or editing notes.
+- **notetv.xml**: Layout for displaying individual notes in a `RecyclerView`.
+
+## Database Schema
+
+- **Notes Table**:
+  - `id` (TEXT, PRIMARY KEY): Unique identifier for each note.
+  - `title` (TEXT): Content of the note.

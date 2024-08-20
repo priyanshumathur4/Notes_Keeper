@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Notes Android App is a simple note-taking application built using Java for Android. The app allows users to manage their notes with features including Google Sign-In, skipping sign-in, and basic CRUD operations using SQLite. This project is designed to help beginners understand Android app development, fragment management, and SQLite database interactions.
+The Note_Keeper Android App is a simple note-taking application built using Java for Android. The app allows users to manage their notes with features including Google Sign-In, skipping sign-in, and basic CRUD operations using SQLite. This project is designed to help beginners understand Android app development, fragment management, and SQLite database interactions.
 
 ## Features
 
